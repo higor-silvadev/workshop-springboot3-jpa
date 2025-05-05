@@ -1,0 +1,54 @@
+# Arquivo auxiliar do Spring Initializr (pode manter ou remover)
+HELP.md
+
+# Diretórios de build
+target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven Wrapper - manter o jar para builds automáticos
+!.mvn/wrapper/maven-wrapper.jar
+
+# Arquivos gerados pelo Maven
+/logs/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# Variáveis de ambiente
+.env
+*.env
+
+##############################
+# IDEs e Ferramentas
+##############################
+
+### Spring Tool Suite (STS) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Visual Studio Code ###
+.vscode/
